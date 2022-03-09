@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 30px 7px 30px;
+    cursor: pointer;
+}
+
+.logo__img {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+.logo__img:hover{
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(-90deg) scale(0.8);
+    cursor: pointer;
+    /*display: none;*/
+}
+
+
+
+
+.logo h1{
+    margin: 0px 20px 3px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__section{
+    display: flex;
+    justify-content: space-between;
+    box-shadow : 0px -5px 10px 5px rgba(0,0,0,0.5);
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 20px 3px 20px;
+    cursor: pointer;
+    font-weight: 522;
+    font-size: 16px;
+    
+}
+
+.list__items a{
+    transition: all 0.3s ease-in-out;
+}
+
+
+.list__items a:hover{
+    color: rgb(7, 10, 214);
+    
+
+}
+
+.list__items{
+    margin: 7px 30px 0 70px;
+    transition: all 0.3s ease-in-out;
+    font-family: roboto;
+    font-size: 17px;
+    padding-top: 4px;
+}
+
+
+
+.nav__btn{
+    margin: 0 30px 0 45px;
+    padding-top: 1.5px;
+}
+
+.nav__btn button{
+    font-size: 14px;
+    font-weight: 522;
+    padding: 8px 5px 5px 5px;
+    height: 34px;
+    width: 100px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    border-style: none;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow : 2px 2px 5px 2px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav__btn button:hover{
+    transform: scale(0.95);
+}
+
+/* Home Page Desing*/
+
+#home__page{
+    display: flex;
+    flex: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.home__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: roboto;
+    background-color: rgba(240, 22, 113, 0.637);
+    height: 92vh;
+    padding: 0 100px 0 150px;
+    box-shadow: 10px 0 30px 0.2px rgb(48 39 39 / 58%);
+}
+
+
+.line__one{
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    color: #400094;
+    margin-right: 350px;
+}
+
+.line__two{
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.line__two span{
+    font-size: 55px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(133, 0, 241);
+}
+
+.line__three{
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    color: hsla(0, 0%, 0%, 0.945);
+    padding-top: 10px;
+}
+
+.line__three span{
+    font-size: 32px;
+    font-family: 'Architects Daughter', cursive;
+    color: #400094; 
+    font-weight: 1000;
+    
+}
+
+.home__btn{
+    height: 55px;
+    width: 180px;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 15px;
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    color: #fff;
+    font-size : 20px;
+    font-family: 'Indie Flower', cursive;
+    box-shadow : 5px 5px 10px 7px rgba(0,0,0,0.5);
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+.home__btn a{
+    padding: 0 5px;
+}
+
+.home__btn span{
+    padding: 15px 0 0 10px; 
+}
+
+
+.home__btn:hover{
+    transform: scale(0.95);
+
+}
+
+
+
+
+
+
+
+.home__img{
+    background-color:rgba(18, 216, 199, 0.17);
+    height: 92vh;
+    width: 48vw;
+}
+
+.img__section{
+    
+}
+
+.home__imagee{
+    height: 469px;
+    width: 469px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 50px 100px 160px;
+    
+
+    
+}
+

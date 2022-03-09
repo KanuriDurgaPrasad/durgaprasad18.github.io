@@ -1,2 +1,2 @@
-# durgaprasad18.github.io
-You are now visiting portfolio website
+# k.durgaprasad.github.io
+You are nor visiting a portfolio website
