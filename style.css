@@ -10,23 +10,16 @@
     display: flex;
     justify-content: space-between;
     margin: 7px 30px 7px 30px;
-    cursor: pointer;
 }
 
 .logo__img {
     height: 32px;
     width: 32px;
-    cursor: pointer;
     transition: transform .3s ease-in-out;
 }
 .logo__img:hover{
-    transform: rotateX(180deg) rotateY(180deg) rotateZ(-90deg) scale(0.8);
-    cursor: pointer;
-    /*display: none;*/
+    transform: rotate(45deg);
 }
-
-
-
 
 .logo h1{
     margin: 0px 20px 3px 16px;
@@ -42,13 +35,11 @@ ul{
 .header{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .header__section{
     display: flex;
     justify-content: space-between;
-    box-shadow : 0px -5px 10px 5px rgba(0,0,0,0.5);
 }
 
 .navlist{
@@ -68,23 +59,19 @@ ul{
 
 .list__items a:hover{
     color: rgb(7, 10, 214);
-    
+    transform: scale(1.8);
 
 }
 
 .list__items{
     margin: 7px 30px 0 70px;
     transition: all 0.3s ease-in-out;
-    font-family: roboto;
-    font-size: 17px;
-    padding-top: 4px;
 }
 
 
 
 .nav__btn{
     margin: 0 30px 0 45px;
-    padding-top: 1.5px;
 }
 
 .nav__btn button{
@@ -105,7 +92,7 @@ ul{
 }
 
 .nav__btn button:hover{
-    transform: scale(0.95);
+    transform: scale(1.03);
 }
 
 /* Home Page Desing*/
@@ -122,17 +109,17 @@ ul{
     flex-direction: column;
     justify-content: center;
     font-family: roboto;
-    background-color: rgba(240, 22, 113, 0.637);
-    height: 92vh;
+    background-color: rgba(241, 39, 3, 0.123);
     padding: 0 100px 0 150px;
-    box-shadow: 10px 0 30px 0.2px rgb(48 39 39 / 58%);
-}
+   
 
+
+}
 
 .line__one{
     font-size: 35px;
     font-family: 'Indie Flower', cursive;
-    color: #400094;
+    color: #f713ab;
     margin-right: 350px;
 }
 
@@ -142,23 +129,22 @@ ul{
 }
 
 .line__two span{
-    font-size: 55px;
+    font-size: 52px;
     font-family: 'Indie Flower', cursive;
-    color: rgb(133, 0, 241);
+    color: rgb(110, 0, 253);
 }
 
 .line__three{
-    font-size: 24px;
+    font-size: 25px;
     font-family: 'Indie Flower', cursive;
-    color: hsla(0, 0%, 0%, 0.945);
+    color: #f74813e7;
     padding-top: 10px;
 }
 
 .line__three span{
     font-size: 32px;
-    font-family: 'Architects Daughter', cursive;
-    color: #400094; 
-    font-weight: 1000;
+    font-family: 'Indie Flower', cursive;
+    color: rgba(48, 6, 126, 0.959); 
     
 }
 
@@ -168,7 +154,7 @@ ul{
     margin-top: 20px;
     border-style: none;
     border-radius: 15px;
-    background: #5C258D;  /* fallback for old browsers */
+    color: background: #5C258D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     color: #fff;
@@ -189,7 +175,7 @@ ul{
 
 
 .home__btn:hover{
-    transform: scale(0.95);
+    transform: scale(1.07);
 
 }
 
@@ -206,7 +192,7 @@ ul{
 }
 
 .img__section{
-    
+   
 }
 
 .home__imagee{
@@ -216,8 +202,6 @@ ul{
     align-items: center;
     justify-content: center;
     margin: 100px 50px 100px 160px;
-    
 
     
 }
-
